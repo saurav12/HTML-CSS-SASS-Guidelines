@@ -1,4 +1,4 @@
-# SquareBoat's HTML & CSS/SCSS Guidelines
+# HTML & CSS/SCSS Guidelines
 
 
 ### HTML - Syntax

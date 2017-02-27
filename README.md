@@ -268,3 +268,9 @@ sass/
 | 
 `– main.scss             # primary Sass file
 ```
+
+### References
+* [Github Styleguide](http://primercss.io/scaffolding/)
+* [Code Guide by @mdo](http://codeguide.co/)
+* [CSS Guidelines](http://cssguidelin.es/)
+* [SASS Guidelines](https://sass-guidelin.es/)

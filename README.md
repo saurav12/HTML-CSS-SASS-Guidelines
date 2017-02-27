@@ -212,7 +212,12 @@ This covers all the above points.
 
 3. Do not use more than 80 columns per line.
 
-4. Always assign master comments for a big components/pages in different style and normal comments in different style.
+4. Always assign master comments for a big components/pages in different style and normal comments in different style. You can use **`//`** comments in SASS, like:
+   ```sass
+   // ######################################## //
+   // ## MODALS.SCSS ## //
+   // ######################################## //
+   ```
 
 
 ### SASS/SCSS Specific - Rules
@@ -223,10 +228,63 @@ This covers all the above points.
 
 3. Don’t use more than 3 levels (keep it as low as possible) of nesting in your SASS/SCSS.
 
-4. Use ‘&’ wherever possible, such as `:hover`, `:after`, `:before`, and many others.
+4. Use ‘&’ wherever possible, such as **`:hover`**, **`:after`**, **`:before`**, and many others.
 
-5. Use SASS/SCSS functions such as `mix`, `darken`, `lighten` for blending colors while hovering, selecting etc.
+5. Use SASS/SCSS functions such as **`mix`**, **`darken`**, **`lighten`** for blending colors while hovering, selecting etc.
 
 6. Use empty lines whenever required.
 
 7. Use **`!default`** & **`!global`** wherever possible in variables.
+
+
+SASS/SCSS Structuring
+-----
+```
+sass/ 
+| 
+|– base/ 
+|   |– _reset.scss       # Reset/normalize 
+|   |– _typography.scss  # Typography rules 
+|   ...                  # Etc… 
+| 
+|– helpers/ 
+|   |– _variables.scss   # Sass Variables 
+|   |– _functions.scss   # Sass Functions 
+|   |– _mixins.scss      # Sass Mixins 
+|   |– _helpers.scss     # Class & placeholders helpers 
+|   ...                  # Etc… 
+|
+|– components/ 
+|   |– _buttons.scss     # Buttons 
+|   |– _carousel.scss    # Carousel 
+|   |– _cover.scss       # Cover 
+|   |– _dropdown.scss    # Dropdown 
+|   |– _navigation.scss  # Navigation 
+|   ...                  # Etc… 
+| 
+|– layout/ 
+|   |– _grid.scss        # Grid system 
+|   |– _header.scss      # Header 
+|   |– _footer.scss      # Footer 
+|   |– _sidebar.scss     # Sidebar 
+|   |– _forms.scss       # Forms 
+|   ...                  # Etc… 
+| 
+|– pages/ 
+|   |– _home.scss        # Home specific styles 
+|   |– _contact.scss     # Contact specific styles 
+|   ...                  # Etc… 
+| 
+|– themes/ 
+|   |– _theme.scss       # Default theme 
+|   |– _admin.scss       # Admin theme 
+|   ...                  # Etc… 
+| 
+|– vendors/ 
+|   |– _bootstrap.scss   # Bootstrap 
+|   |– _jquery-ui.scss   # jQuery UI 
+|   ...                  # Etc… 
+| 
+| 
+`– main.scss             # primary Sass file
+```

@@ -1,5 +1,19 @@
 # HTML & CSS/SCSS Guidelines
-General HTML, CSS & SASS Guidelines
+General HTML, CSS & SASS Guidelines.
+
+### Table of Contents:
+   * [**HTML**](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html)
+      * [HTML - Syntax](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html---syntax)
+      * [HTML - Rules](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html---rules)
+      * [HTML - Example](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html---example)
+      
+   * [**CSS/SASS**](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass)
+      * [CSS/SASS - Syntax](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---syntax)
+      * [CSS/SASS - Example](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---example)
+      * [CSS/SASS - Rules](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---rules)
+      * [CSS/SASS - Comments](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---comments)
+      
+   * [**SASS/SCSS Structuring**](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#sassscss-structuring)
 
 HTML
 -----
@@ -86,7 +100,7 @@ CSS/SASS
 11. Use quotes in values of quote attributes, such as use **`input[type=“text”]`** instead of **`input[type=text]`**.
 12. Avoid specifying units in for zero (0) values, such as use **`margin: 0;`** instead of **`margin: 0px;`**
 
-### CSS - Example
+### CSS/SASS - Example
 This covers all the above points.
 
 ```css
@@ -187,7 +201,7 @@ This covers all the above points.
 ### SASS/SCSS Specific - Rules
 
 1. Use **Prepros** for SASS/SCSS compilation to maintain consistency. Enable **Autoprefixing** & **Sourcemapping** by default.
-2. Define a proper structure of your SASS structure to start with. Have a look at [SASS/SCSS Structuring](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#sassscss-specific---rules).
+2. Define a proper structure of your SASS structure to start with. Have a look at [SASS/SCSS Structuring](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#sassscss-structuring).
 3. Don’t use more than 3 levels (keep it as low as possible) of nesting in your SASS/SCSS.
 4. Use ‘&’ wherever possible, such as **`:hover`**, **`:after`**, **`:before`**, and many others.
 5. Use SASS/SCSS functions such as **`mix`**, **`darken`**, **`lighten`** for blending colors while hovering, selecting etc.

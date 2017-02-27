@@ -38,14 +38,17 @@ HTML
    ```html
    <meta http-equiv=“X-UA-Compatible” content=“IE=Edge”>
    ```
+   
 4. Always assign charset into your meta, like:
    ```html
    <meta charset=“UTF-8”>
    ```
+   
 5. Use viewport meta information for supporting responsiveness to your template, eg:
    ```html
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
    ```
+   
 6. CSS & JS includes doesn’t need **`text/css`** or **`text/javascript`** because they are respective defaults.
 7. Attribute Ordering - should be in a particular order for ease of reading of code:
    * `id`, `name`,
@@ -57,6 +60,7 @@ HTML
    ```html
    <div id="myId" class="my-class"></div>
    ```
+   
 9. Always use **classes** instead of **`id`'s** wherever possible, other than modal-triggering, etc.
 10. Boolean Attributes - Do not add values to boolean attributes such as **`checked`**, **`disabled`**, etc. (not its value) as its presence of boolean attribute represents its true value & the absence represents its false value.
 11. Reduce markup wherever possible.
@@ -157,12 +161,14 @@ This covers all the above points.
    ```css
    .icon { background-position: 0 0; }.
    ```
+   
 6. Use shorthand notations whenever you need it. For example if you need to assign margins for more than 2 directions use shorthand. For ex:
    ```css
    .selector {
       margin: 0 10px 10px 0; // margin for top, right, bootm & left respectively
    }
    ```
+   
 7. Avoid unnecessary nesting in SASS/SCSS. Try not to nest your SASS/SCSS more than 3 levels (keep it as low as possible). Example:
    ```css
    .parent-selector {
@@ -174,6 +180,7 @@ This covers all the above points.
       .child-two { ... }
    }
    ```
+   
 8. Keep your class names small & use dashes (no underscores or camelCase). Also discussed in HTML.
 9. Use descriptive class names. Try to keep them small wherever possible.
 10. Prefix classes based on the closest parent. Ex:
@@ -181,6 +188,7 @@ This covers all the above points.
    modal--header-title { ... }
    modal--header-subtitle { ... }
    ```
+   
 11. Use **`.js-*`** class names to denote the behaviour, but do not use them inside your CSS/SASS.
 12. These all applies to SASS/SCSS variable names as well.
 

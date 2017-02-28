@@ -2,18 +2,18 @@
 General HTML, CSS & SASS Guidelines.
 
 ### Table of Contents:
-   * [**HTML**](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html)
-      * [HTML - Syntax](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html---syntax)
-      * [HTML - Rules](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html---rules)
-      * [HTML - Example](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#html---example)
+   * [**HTML**](#html)
+      * [HTML - Syntax](#html---syntax)
+      * [HTML - Rules](#html---rules)
+      * [HTML - Example](#html---example)
       
-   * [**CSS/SASS**](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass)
-      * [CSS/SASS - Syntax](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---syntax)
-      * [CSS/SASS - Example](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---example)
-      * [CSS/SASS - Rules](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---rules)
-      * [CSS/SASS - Comments](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#csssass---comments)
+   * [**CSS/SASS**](#csssass)
+      * [CSS/SASS - Syntax](#csssass---syntax)
+      * [CSS/SASS - Example](#csssass---example)
+      * [CSS/SASS - Rules](#csssass---rules)
+      * [CSS/SASS - Comments](#csssass---comments)
       
-   * [**SASS/SCSS Structuring**](https://github.com/saurav12/HTML-CSS-SASS-Guidelines#sassscss-structuring)
+   * [**SASS/SCSS Structuring**](#sassscss-structuring)
 
 HTML
 -----
